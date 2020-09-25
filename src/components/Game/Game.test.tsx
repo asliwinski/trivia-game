@@ -19,7 +19,7 @@ test('renders elements correctly', () => {
   const { getByText } = render(
     <Game
       questions={questions}
-      showResult={() => {}}
+      setShowResult={() => {}}
       results={[]}
       submitAnswer={() => {}}
     />
